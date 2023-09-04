@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(#009751b7,#009746ae), url("https://res.cloudinary.com/dt0bfmvvy/image/upload/v1693844574/Matsu/j5vut6vfwlr8wqrijm4c.jpg");
+}
+
+.h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px black;
+    margin: 50px;
+}
