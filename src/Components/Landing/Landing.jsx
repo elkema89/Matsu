@@ -12,8 +12,8 @@ const Landing = ()=>{
 
     return (
         <div className={style.container}>
-                <h1 className={style.h1}>BIENVENIDO</h1>
-                <Button name="INGRESAR" action={handlerClick} />
+            <h1 className={style.h1}>BIENVENIDO</h1>
+            <Button name="INGRESAR" action={handlerClick} />
         </div>
     )
 }
