@@ -1,7 +1,16 @@
+<<<<<<<<< Temporary merge branch 1
+import NavBar from "../../Components/NavBar/NavBar"
 const Home =()=>{
     return (
         <div>
-            <h1>MATSU</h1>
+            <NavBar />
+=========
+
+const Home =()=>{
+    return (
+        <div>
+            
+>>>>>>>>> Temporary merge branch 2
         </div>
     )
 }
