@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    /*background: linear-gradient(#009751b7,#009746ae), url("https://res.cloudinary.com/dt0bfmvvy/image/upload/v1694007202/Matsu/ymym5lfhaozgkqyrvkwp.jpg");*/
+    background-image: url("https://res.cloudinary.com/dt0bfmvvy/image/upload/v1694006917/Matsu/dxn07dfripvmuavmq7be.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.opacity{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 151, 70, 70%);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+}
+
+.h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px black;
+    margin: 40px;
+}
+.img{
+    max-width: 350px;
+    border-radius: 30px;
+    opacity: 50%;
+}
