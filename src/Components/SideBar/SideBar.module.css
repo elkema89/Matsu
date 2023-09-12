@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    width: 30%;
+    height: 100vh;
+    background-color: rgba(0, 151, 70, 100%);
+}
+.opciones{
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin: 10px;
+    color: white;
+}
