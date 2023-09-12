@@ -1,8 +1,7 @@
-import NavBar from "../../Components/NavBar/NavBar"
 const Home =()=>{
     return (
         <div>
-            <NavBar />
+            <h1>MATSU</h1>
         </div>
     )
 }
