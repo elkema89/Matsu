@@ -15,7 +15,6 @@ const render = new THREE.WebGLRenderer();
 const controls = new OrbitControls(camera, render.domElement);
 controls.autoRotate = true;
 controls.autoRotateSpeed = 10;
-console.log(controls);
 
 //resize
 
