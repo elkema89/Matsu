@@ -15,6 +15,8 @@
     margin: 5px;
     border-radius: 30px;
     padding: 5px;
+    border: 1px solid rgba(0, 151, 70, 100%);
+    transition: 1s;
 }
 .opciones:hover{
     border: 1px solid #4A3424;

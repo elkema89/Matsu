@@ -1,9 +1,16 @@
 import style from "./Login.module.css"
 import Button from "../Button/Button"
+import {useNavigate} from "react-router-dom"
 const Login =()=>{
+    const navigate = useNavigate()
+
+    const handlerClose= ()=>{
+        navigate("/home")
+    }
+
     return(
         <div className={style.contenedor}>
-            <Button name="Cerrar" />
+            <Button name="Cerrar" action={handlerClose} />
       <div className={style.container}>
         <form className={style.inputContainer}>
           <h2>Conectarse</h2>
@@ -22,8 +29,9 @@ const Login =()=>{
             type="password"
             name="password"            
           />
-          <p className={style.label}>-------------O-------------</p>
-          
+          <Button name="Conectarse" />
+          <p className={style.label}>---------O---------</p>
+          <Button name="Conectarse con Google" />
         </form>
       </div>
     </div>
