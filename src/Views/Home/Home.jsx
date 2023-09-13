@@ -1,16 +1,15 @@
-<<<<<<<<< Temporary merge branch 1
+import Loading from "../../Components/Loading/Loading.jsx";
+import SideBar from "../../Components/SideBar/SideBar.jsx"
 import NavBar from "../../Components/NavBar/NavBar"
+import style from "./Home.module.css"
 const Home =()=>{
     return (
-        <div>
+        <div className={style.container}>
             <NavBar />
-=========
-
-const Home =()=>{
-    return (
-        <div>
-            
->>>>>>>>> Temporary merge branch 2
+            <div className={style.home}>
+                <SideBar />
+                <Loading />
+            </div>
         </div>
     )
 }
